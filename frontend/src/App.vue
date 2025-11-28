@@ -65,7 +65,6 @@ onMounted(() => {
 
 <template>
   <div class="jarvis-container">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet" />
     <div class="grid-bg"></div>
 
     <div v-if="showOverlay" id="init-overlay" @click="initializeSystem">
@@ -153,8 +152,6 @@ onMounted(() => {
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
-
 :root {
   --cyan: #00f3ff;
   --dark-cyan: rgba(0, 243, 255, 0.2);
